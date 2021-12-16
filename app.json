@@ -1,0 +1,10 @@
+{
+  "name": "Atlas Revision Api",
+  "description": "This is the core API for the Atlas Revision project. It provides question data for the website. All questions are from CIE.",
+  "keywords": [
+    "go",
+    "API"
+  ],
+  "website": "https://atlas-go-api.herokuapp.com/",
+  "repository": "http://github.com/the-real-thisas/atlas-go-api"
+}
