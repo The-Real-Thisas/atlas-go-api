@@ -3,7 +3,8 @@
   "description": "This is the core API for the Atlas Revision project. It provides question data for the website. All questions are from CIE.",
   "keywords": [
     "go",
-    "API"
+    "API",
+    "Atlas"
   ],
   "website": "https://atlas-go-api.herokuapp.com/",
   "repository": "https://github.com/The-Real-Thisas/atlas-go-api"
