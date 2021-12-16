@@ -12,7 +12,6 @@ import (
 
 	"github.com/gin-gonic/gin"
 	cors "github.com/itsjamie/gin-cors"
-	"github.com/thinkerou/favicon"
 )
 
 type Data struct {
@@ -116,7 +115,6 @@ func main() {
 	}), gin.Logger())
 	router.LoadHTMLGlob("templates/*.tmpl.html")
 	router.Static("/static", "static")
-	router.Use(favicon.New("./favicon.ico"))
 
 	router.GET("/", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "index.tmpl.html", nil)
